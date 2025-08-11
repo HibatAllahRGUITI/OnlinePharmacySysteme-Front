@@ -1,0 +1,99 @@
+
+.form-ordonnance-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.prescription-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .h2ord {
+    text-align: center;
+    color: #6c66de;
+    margin-bottom: 20px;
+  }
+  
+  .prescription-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label-ord {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  select, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23333' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+  }
+  
+  input[type="file"] {
+    padding: 10px 0;
+  }
+  
+  .image-preview {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submit-button-ord {
+    background-color: #6c66de;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button-ord:hover {
+    background-color: #313e6c;
+  }
+  
+  @media (max-width: 480px) {
+    .prescription-form-container {
+      padding: 15px;
+    }
+  
+    select, input[type="file"], .submit-button {
+      font-size: 14px;
+    }
+  }
+  
+  
